@@ -1,7 +1,8 @@
 include:
   - ..packages.python-pip
-
-distorm3:
+  
+sift-pyhindsight:
   pip.installed:
+    - name: pyhindsight
     - require:
       - pkg: python-pip
